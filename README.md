@@ -7,4 +7,4 @@ lucene中smartcn分词器使用自带的词库，在工作中，需要扩展词�
 	-target: dict文件生成目录，会在该目录中生成new_coredict.dct和new_bigramdict.dct文件
 3. 词库使用方法:
 	方法一: 修改并编译smartcn包的源码
-	方法二: 参考源码中test目录的做法，重写Smartcn的Analyzer类型，反射重新加载dict文件，
+	方法二: 参考源码中test目录的做法，重写Smartcn的Analyzer类型，反射重新加载dict文件
